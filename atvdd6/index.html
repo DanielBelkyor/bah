@@ -1,0 +1,109 @@
+<!DOCTYPE html> <!-- versão do html-->
+<html lang="pt-br"> <!-- Linguagem do código -->
+<head>
+    <!-- Mapa de caracteres unicode -->
+    <meta charset="UTF-8"/>
+
+    <!-- autor da pág -->
+    <meta name="author" content="Autor: João Victor Nunes Martins, Co-autor: ?"/>
+    
+    <!-- Indexar página nos motores de busca Ex: Google-->
+    <meta name="robots" content="index, follow"/>
+    <meta name="keywords" content="back, end, back-end, php"/>
+    <meta name="description" content="Back-End"/>
+
+    <!-- Design responsivo/ Mobile First -->
+    <meta name="viewport" content="width= device-width, initial-scale=1.0"/>
+    
+
+    <!-- Favicon - Icone do Site -->
+    <link href="" rel="shortcut icon" type="img/png" />
+
+    <!-- CSS Externo-->
+    <link href="css/"rel="stylesheet" type="text/css" media="all"/>
+
+    <!-- CSS Interno -->
+    <style>
+
+    /* CSS Interno aqui */
+
+    </style>
+    <!-- Título dá página -->
+      <title> Título da página </title>
+
+      <h1>Formulário de cadastro</h1>
+      <form action="back-end/exibirDados.php" method="POST">
+        <div class="usuario">
+          <h2>Cadastro de usuário</h2>
+          <hr />
+          <label>Nome:</label><br />
+          <input type="text" name="nome"/>
+          <br />
+          <br />
+          <label>Sobrenome:</label><br />
+          <input type="text" name="sobrenome"/>
+          <br />
+          <br />
+          <label>Email:</label><br />
+          <input type="email" name="email"/>
+          <br />
+          <br />
+          <label>Telefone:</label><br />
+          <input type="tel" name="telefone"/>
+          <br />
+          <br />
+          <label>Endereço:</label><br />
+          <input type="text" name="endereco"/>
+          <br />
+          <br />
+          <label>Nome de identidade:</label><br />
+          <input type="text" name="rg"/>
+          <br />
+          <br />
+          <label>CPF:</label><br />
+          <input type="text" name="cpf"/>
+          <br />
+          <br />
+        </div>
+        <div class="empresa">
+          <h2>Cadastro de Empresa</h2>
+          <hr />
+          <label>Razão Social:</label><br />
+          <input type="text" name="razaoSocial" />
+          <br />
+          <br />
+          <label>Nome fantasia:</label><br />
+          <input type="text" name="nomeFantasia" />
+          <br />
+          <br />
+          <label>E-mail:</label><br />
+          <input type="email" name="emailEmpresa" />
+          <br />
+          <br />
+          <label>Telefone:</label><br />
+          <input type="tel" name="telefoneEmpresa" />
+          <br />
+          <br />
+          <label>Endereço:</label><br />
+          <input type="text" name="endrecoEmpresa" />
+          <br />
+          <br />
+          <label>CNPJ:</label><br />
+          <input type="text" name="cnpj" />
+          <br />
+          <br />
+        </div>
+        <hr />
+        <button type="submit">Cadastrar</button>
+      </form>
+
+    <!-- Container -->
+    <div class= "container">
+      
+    </div>
+    <!-- Fim de Container -->
+
+    <!-- Javascript -->
+    <script src="Script.js"></script>
+</body>
+</html>
